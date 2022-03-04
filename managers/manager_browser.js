@@ -40,7 +40,7 @@ class Manager_Browser{
 	}
 
 	async start(){
-		await this.open_browser(true)
+		await this.open_browser(false)
 		await this.open_reserver_taps(['1','2'])
 		await this.load_managers()
 	}
