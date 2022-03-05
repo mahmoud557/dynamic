@@ -1,0 +1,27 @@
+{
+  "name": "phone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser": "node managers/manager_browser.js",
+    "api": "node managers/manager_api.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-ws": "^5.0.2",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.6",
+    "node-html-parser": "^5.2.0",
+    "path": "^0.12.7",
+    "puppeteer": "^13.1.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-recaptcha": "^3.5.0",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
